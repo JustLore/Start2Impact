@@ -16,3 +16,5 @@ A project of Javascript for Start2Impact.<br>
 The counter was made with Javascript (buttons were created with js too), styled in css.
 
 ## Screenshots
+
+<img src="/readme_img/counter_1.png" alt="counter" width="80" height="80">
