@@ -17,4 +17,4 @@ The counter was made with Javascript (buttons were created with js too), styled 
 
 ## Screenshots
 
-<img src="/readme_img/counter_1.png" alt="counter" width="80" height="80">
+<img src="readme_img/Counter_1.png">
