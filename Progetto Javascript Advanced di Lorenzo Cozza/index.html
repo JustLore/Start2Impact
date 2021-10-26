@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href='./img/smog.png'>
+
+    <title>Pollution Checker</title>
+  </head>
+  <body>
+   <div class="header">
+    <div class="title">
+     <h1>City Pollution Checker</h1>
+     <p>Check your city's air pollution.</p>
+    </div>
+    <div class="form">
+     <form>
+      <input id="input" type="text" placeholder="City Name">
+       <button id="btn" type="button">
+        <i>Search</i>
+       </button>
+     </form>
+      <button id="geo" type="button">
+       <i>Or click here for browser's geolocation.</i>
+      </button>
+    </div>
+    <div class="search" id='info' style="visibility:hidden;">
+     <div class="search_section city">
+      <h3>City</h3>
+      <p id="city"></p>
+     </div>
+     <div class="border"></div>
+     <div class="search_section aqi">
+       <h3>Air quality index</h3>
+       <p id="aqi"></p>
+     </div>
+     <div class="border"></div>
+      <div class="search_section health">
+       <h3>Health note</h3>
+       <p id="health"></p>
+      </div>
+     </div>
+   </div>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./js/script.js"></script>
+</html>
